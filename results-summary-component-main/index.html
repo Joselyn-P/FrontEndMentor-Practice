@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Results summary component</title>
+
+  <!-- font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="result">
+      <h3>Your Result</h3>
+      
+      <div class="score">
+        <span>76</span>
+        <p>of 100</p>
+      </div>
+
+      <h2>Great</h2>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="summary">
+      <h3>Summary</h3>
+        <ul>
+          <li class="reaction">
+            <div class="logo">
+              <img src="assets/images/icon-reaction.svg">
+              Reaction
+            </div>
+            <div class="score">80<span> / 100</span></div>
+          </li>
+
+          <li class="memory">
+            <div class="logo">
+              <img src="assets/images/icon-memory.svg">
+              Memory
+            </div>
+            <div class="score">92<span> / 100</span></div>
+          </li>
+
+          <li class="verbal">
+            <div class="logo">
+              <img src="assets/images/icon-verbal.svg">
+              Verbal
+            </div>
+            <div class="score">61<span> / 100</span></div>
+          </li>
+
+          <li class="visual">
+            <div class="logo">
+              <img src="assets/images/icon-visual.svg">
+              Visual
+            </div>
+            <div class="score">72<span> / 100</span></div>
+          </li>
+        </ul>
+      
+      <button class="cont">Continue</button>
+    </div>
+  </div>
+  
+<foot class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">JOZU</a>.
+  </footer>
+</body>
+</html>
